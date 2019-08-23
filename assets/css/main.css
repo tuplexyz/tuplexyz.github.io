@@ -3252,10 +3252,13 @@ input, select, textarea {
 
 		.wrapper.style1-alt {
 			background-color: #ffc61e;
+            background: linear-gradient(128deg, rgba(255,198,30,1) 36%, rgba(203,0,192,1) 100%);
+            
 		}
 
 		.wrapper.style2 {
 			background-color: #002868;
+            background: linear-gradient(135deg, rgba(0,40,104,1) 0%, rgba(0,78,121,1) 100%);
 		}
 
 		.wrapper.style2-alt {
@@ -3264,10 +3267,12 @@ input, select, textarea {
 
 		.wrapper.style3 {
 			background-color: #007a3d;
+            background: linear-gradient(135deg, rgba(0,122,61,1) 0%, rgba(0,97,99,1) 100%);
 		}
 
 		.wrapper.style3-alt {
 			background-color: #5e2154;
+            background: linear-gradient(135deg, rgba(94,33,84,1) 0%, rgba(63,9,121,1) 100%);
 		}
 		
 		.wrapper.style4 {
@@ -3536,6 +3541,7 @@ input, select, textarea {
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
 		background: #ffc61e;
+        background: linear-gradient(315deg, rgba(255,198,30,1) 50%, rgba(203,0,192,1) 100%);
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3750,7 +3756,7 @@ input, select, textarea {
 			border: 0;
 			color: #111114;
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.8em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
