@@ -3135,12 +3135,15 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.spotlights > section > .image {
-				height: 50vh;
-				min-height: 15em;
+				/*height: 50vh;
+				min-height: 15em;*/
+				height: 10vh;
+				min-height: 10em;
 			}
 
 			.spotlights > section > .content {
-				padding: 3em 2em 1em 2em ;
+				/*padding: 3em 2em 1em 2em ;*/
+				padding: 1em 1em 1em 1em ;
 			}
 
 		}
@@ -3259,7 +3262,9 @@ input, select, textarea {
 
 		.wrapper.style1-alt {
 			background-color: #ffc61e;
-            background: linear-gradient(128deg, rgba(255,198,30,1) 36%, rgba(203,0,192,1) 100%);
+			/*background: linear-gradient(128deg, rgba(255,198,30,1) 36%, rgba(203,0,192,1) 100%);*/
+            background: linear-gradient(128deg, rgba(255,198,30,1) 36%, rgba(255,140,0,1) 100%);
+			
             
 		}
 
@@ -3548,7 +3553,8 @@ input, select, textarea {
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
 		background: #ffc61e;
-        background: linear-gradient(315deg, rgba(255,198,30,1) 50%, rgba(203,0,192,1) 100%);
+        /*background: linear-gradient(315deg, rgba(255,198,30,1) 50%, rgba(203,0,192,1) 100%);*/
+		background: linear-gradient(315deg, rgba(255,198,30,1) 50%, rgba(255,140,0,1) 100%);
 		cursor: default;
 		height: 100vh;
 		left: 0;
