@@ -214,17 +214,17 @@ a.text-blue:hover, a.text-blue:focus {
 }
 
 .bg-footer {
-  background-color: #202942 !important;
+  background-color: #002868 !important;
 }
 
 .bg-soft-footer {
   background-color: rgba(32, 41, 66, 0.2) !important;
   border: 1px solid rgba(32, 41, 66, 0.2) !important;
-  color: #202942 !important;
+  color: #002868 !important;
 }
 
 .text-footer {
-  color: #202942 !important;
+  color: #002868 !important;
 }
 
 a.text-footer:hover, a.text-footer:focus {
@@ -1781,8 +1781,8 @@ button:not(:disabled) {
 }
 
 .social-icon.social li a {
-  color: #adb5bd;
-  border-color: #adb5bd;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 .back-to-top {
@@ -3383,7 +3383,7 @@ p {
 .pricing-rates {
   position: relative;
   z-index: 1;
-  border-bottom: 3px solid #adb5bd !important;
+  border-bottom: 3px solid #ffffff !important;
 }
 
 .pricing-rates .title {
@@ -4426,10 +4426,10 @@ p {
 }
 
 .footer {
-  background: #001553;
+  background: #002868;
   padding: 60px 0;
   position: relative;
-  color: #adb5bd;
+  color: #ffffff;
 }
 
 .footer .logo-footer {
@@ -4443,7 +4443,7 @@ p {
 }
 
 .footer .foot-subscribe .form-control {
-  background-color: #001553;
+  background-color: #002868;
   border: 1px solid #27314f;
   color: #f8f9fc;
 }
@@ -4454,27 +4454,27 @@ p {
 }
 
 .footer .foot-subscribe.foot-white .form-control {
-  color: #adb5bd;
+  color: #ffffff;
 }
 
 .footer .foot-subscribe input::-webkit-input-placeholder {
-  color: #adb5bd;
+  color: #ffffff;
 }
 
 .footer .foot-subscribe input:-ms-input-placeholder {
-  color: #adb5bd;
+  color: #ffffff;
 }
 
 .footer .foot-subscribe input::-ms-input-placeholder {
-  color: #adb5bd;
+  color: #ffffff;
 }
 
 .footer .foot-subscribe input::placeholder {
-  color: #adb5bd;
+  color: #ffffff;
 }
 
 .footer .text-foot {
-  color: #adb5bd;
+  color: #ffffff;
 }
 
 .footer .footer-list {
