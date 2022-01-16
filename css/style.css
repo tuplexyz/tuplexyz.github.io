@@ -214,17 +214,17 @@ a.text-blue:hover, a.text-blue:focus {
 }
 
 .bg-footer {
-  background-color: #002868 !important;
+  background-color: #002F78 !important;
 }
 
 .bg-soft-footer {
   background-color: rgba(32, 41, 66, 0.2) !important;
   border: 1px solid rgba(32, 41, 66, 0.2) !important;
-  color: #002868 !important;
+  color: #002F78 !important;
 }
 
 .text-footer {
-  color: #002868 !important;
+  color: #002F78 !important;
 }
 
 a.text-footer:hover, a.text-footer:focus {
@@ -4426,7 +4426,7 @@ p {
 }
 
 .footer {
-  background: #002868;
+  background: #002F78;
   padding: 60px 0;
   position: relative;
   color: #ffffff;
@@ -4443,7 +4443,7 @@ p {
 }
 
 .footer .foot-subscribe .form-control {
-  background-color: #002868;
+  background-color: #002F78;
   border: 1px solid #27314f;
   color: #f8f9fc;
 }
