@@ -101,15 +101,15 @@
 }
 
 .contactdata-item-1 {
-  background-image: url("../img/svg/icon-contact-bg-1.svg");
+  /* background-image: url("../img/svg/icon-contact-bg-1.svg"); */
 }
 
 .contactdata-item-2 {
-  background-image: url("../img/svg/icon-contact-bg-2.svg");
+  /* background-image: url("../img/svg/icon-contact-bg-2.svg"); */
 }
 
 .contactdata-item-3 {
-  background-image: url("../img/svg/icon-contact-bg-3.svg");
+  /* background-image: url("../img/svg/icon-contact-bg-3.svg"); */
 }
 
 /* ------------------------------------------------*/
@@ -3875,7 +3875,7 @@ form .inputs-description {
   display: block;
   position: relative;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   -webkit-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.2);
      -moz-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.2);
@@ -3894,7 +3894,7 @@ form .inputs-description {
 }
 @media only screen and (min-width: 1200px) {
   .my-gallery__description {
-    opacity: 0;
+    opacity: 100;
     -webkit-transition: opacity 0.3s ease-in-out;
     -o-transition: opacity 0.3s ease-in-out;
     -moz-transition: opacity 0.3s ease-in-out;
@@ -3905,7 +3905,7 @@ form .inputs-description {
        -moz-transform: translateY(10px);
         -ms-transform: translateY(10px);
             transform: translateY(10px);
-    opacity: 0;
+    opacity: 100;
     -webkit-transition: opacity 0.3s 0.3s ease-in-out, -webkit-transform 0.3s 0.3s;
     transition: opacity 0.3s 0.3s ease-in-out, -webkit-transform 0.3s 0.3s;
     -o-transition: transform 0.3s 0.3s, opacity 0.3s 0.3s ease-in-out;
@@ -3914,7 +3914,7 @@ form .inputs-description {
     transition: transform 0.3s 0.3s, opacity 0.3s 0.3s ease-in-out, -webkit-transform 0.3s 0.3s, -moz-transform 0.3s 0.3s;
   }
   .my-gallery__description h4 small {
-    opacity: 0;
+    opacity: 100;
     -webkit-transition: opacity 0.3s 0.4s ease-in-out, -webkit-transform 0.3s 0.4s;
     transition: opacity 0.3s 0.4s ease-in-out, -webkit-transform 0.3s 0.4s;
     -o-transition: transform 0.3s 0.4s, opacity 0.3s 0.4s ease-in-out;
@@ -3925,7 +3925,8 @@ form .inputs-description {
 }
 
 .pswp__caption__center {
-  max-width: 540px;
+  /* max-width: 540px; */
+  max-width: 50%;
   padding: 2.4rem 10%;
 }
 .pswp__caption__center h4 {

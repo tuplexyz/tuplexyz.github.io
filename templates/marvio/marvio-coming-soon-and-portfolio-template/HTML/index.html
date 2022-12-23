@@ -17,10 +17,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Template Favicon & Icons Start -->
-    <link rel="icon" href="img/favicon/favicon.ico" sizes="any">
-    <link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-    <link rel="manifest" href="img/favicon/manifest.webmanifest">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <!-- <link rel="icon" href="icon.svg" type="image/svg+xml"> -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.webmanifest">
     <!-- Template Favicon & Icons End -->
 
     <!-- Facebook Metadata Start -->
@@ -43,9 +43,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 
     <!-- Custom Browser Color Start -->
-    <meta name="theme-color" content="#000000">
-    <meta name="msapplication-navbutton-color" content="#000000">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+    <meta name="theme-color" content="#003078">
+    <meta name="msapplication-navbutton-color" content="#003078">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#003078">
     <!-- Custom Browser Color End -->
   </head>
 
@@ -99,7 +99,12 @@
                               </li>
                               <li>
                                 <a href="https://www.github.com/tuplexyz" target="_blank">
-                                  <i class="fa-brands fa-instagram"></i>
+                                  <i class="fa-brands fa-github"></i>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="https://appsource.microsoft.com/en-US/marketplace/partner-dir/e349bd57-2c5c-4998-b9d8-f719ae47dcde/overview" target="_blank">
+                                  <i class="fa-brands fa-microsoft"></i>
                                 </a>
                               </li>
                             </ul>
@@ -135,13 +140,13 @@
                       <!-- Navigation Start -->
                       <ul class="navigation">
                         <li>
-                          <a href="#0" id="home-trigger">Home</a>
+                          <a href="#home" id="home-trigger">Home</a>
                         </li>
                         <li>
-                          <a href="#0" id="about-trigger">About Us</a>
+                          <a href="#about" id="about-trigger">About Us</a>
                         </li>
                         <li>
-                          <a href="#0" id="portfolio-trigger">Solutions</a>
+                          <a href="#solutions" id="portfolio-trigger">Solutions</a>
                         </li>
                         <!-- <li>
                           <a href="#0" id="contact-trigger">Contact</a>
@@ -179,7 +184,7 @@
                 <div class="container-fluid p-0">
                   <div class="row g-0">
                     <div class="col-12">
-                      <p class="copyright">By <a href="https://tuple.xyz" target="_blank">Tuple, LLC</a>, 2023</p>
+                      <p class="copyright">Copyright <a href="https://tuple.xyz" target="_blank">Tuple, LLC</a>, 2023&nbsp;|&nbsp;<a href="privacy/index.html" id="showreel-trigger">Privacy Policy</a></p>
                     </div>
                   </div>
                 </div>
@@ -311,14 +316,24 @@
               <!-- Intro Content End -->
 
               <!-- Bottom Button Start -->
+              
               <div class="intro__button">
+                <span class="headline__subtitle">News...</span>
                 <!-- <a href="https://tuplexyz.medium.com/case-study-scaling-rare-disease-research-in-the-azure-cloud-3232e9d6074f" id="showreel-trigger" class="btn-bottom"> -->
                 <a href="https://tuplexyz.medium.com/case-study-scaling-rare-disease-research-in-the-azure-cloud-3232e9d6074f" target="_blank" class="btn-bottom">
                   <span class="circle">
                     <em></em>
-                    <i class="fa-solid fa-newspaper"></i>
+                    <i class="fa-solid fa-dna fa-2xl"></i>
                   </span>
                   <span class="caption">Read our latest case study:<br>"Scaling Rare Disease Research in the Azure Cloud"</span>
+                </a>
+                <br>
+                <a href="https://www.oreilly.com/library/view/genomics-in-the/9781098139032/" target="_blank" class="btn-bottom">
+                  <span class="circle">
+                    <em></em>
+                    <i class="fa-solid fa-book fa-2xl"></i>
+                  </span>
+                  <span class="caption">Our book, "Genomics in the Azure Cloud" is now available!</span>
                 </a>
               </div>
               <!-- Bottom Button End -->
@@ -477,6 +492,7 @@
                           <!-- <div class="contactdata__icon">
                             <img src="https://dummyimage.com/100x100/dedede/636363" alt="Tuple Contact Icon">
                           </div> -->
+                          <i class="fa-solid fa-location-dot fa-2xl"></i>
                           <h5 class="contactdata__title">Location</h5>
                           <div class="contactdata__descr d-flex align-items-start">
                             <div class="contactdata__icon">
@@ -494,6 +510,7 @@
                           <!-- <div class="contactdata__icon">
                             <img src="https://dummyimage.com/100x100/dedede/636363" alt="Tuple Contact Icon">
                           </div> -->
+                          <i class="fa-solid fa-thumbs-up fa-2xl"></i>
                           <h5 class="contactdata__title">Follow us</h5>
                           <div class="contactdata__descr d-flex align-items-start">
                             <ul class="contactdata__socials">
@@ -522,6 +539,7 @@
                           <!-- <div class="contactdata__icon">
                             <img src="https://dummyimage.com/100x100/dedede/636363" alt="Tuple Contact Icon">
                           </div> -->
+                          <i class="fa-solid fa-envelope fa-2xl"></i>
                           <h5 class="contactdata__title">Contact</h5>
                           <div class="contactdata__descr d-flex align-items-start">
                             <div class="contactdata__icon">
@@ -603,10 +621,10 @@
                 <div class="content-block">
                   <span class="section__subtitle">What we do best...</span>
                   <h2>Solutions.</h2>
-                  <p class="section__text">Let us give your technology practice a fact lift!
+                  <p class="section__text">Let us give your technology practice an upgrade!
                     Focusing on the Microsoft Azure plaform, we provide a set of services to help modernize your capabilites and enhance the value you get from your data.
                     <br><br>
-                    We're not afraid to sling some code while also diving deep into the science. Building on deep expertise in the data science and life science worlds, we offer services to help enhance your research capabilities.
+                    We're not afraid to sling some code while also diving deep into the science. Building on deep expertise in both the data science and life science worlds, we offer services to help enhance your research capabilities.
                   </p>
                 </div>
               </div>
@@ -617,50 +635,21 @@
                 <div class="content-block grid-block">
                   <div class="container-fluid px-4 works__gallery">
                     <div class="row gx-5 my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                    <!-- <div class="row gx-5" itemscope itemtype="http://schema.org/ImageGallery"> -->
 
                       <!-- Works Gallery Single Item Start -->
                       <figure class="col-12 col-md-6 my-gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
                         <a href="https://dummyimage.com/1000x1000/dedede/636363" data-image="https://dummyimage.com/1000x1000/dedede/636363" class="my-gallery__link block-rounded-l" itemprop="contentUrl" data-size="1000x1000">
-                          <img src="https://dummyimage.com/1000x1000/dedede/636363" class="my-gallery__image" itemprop="thumbnail" alt="Image description" />
+                          <img src="img/portfolio/colbyford_a_3d_realistic_lake_with_dna_floating_in_it_c1d9c97e-f7cb-4346-9344-c94455cdca18.png" class="my-gallery__image" itemprop="thumbnail" alt="Image description" />
                         </a>
-                        <figcaption class="my-gallery__description block-rounded-l" itemprop="caption description">
-                          <h4 class="dark">Cute character
-                            <small>3d render</small>
-                          </h4>
-                          <p>Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio,
-                            a mollis ipsum tristique eu.
-                          </p>
-                        </figcaption>
-                      </figure>
-                      <!-- Works Gallery Single Item End -->
-
-                      <!-- Works Gallery Single Item Start -->
-                      <figure class="col-12 col-md-6 my-gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="https://dummyimage.com/1000x1000/636363/ffffff" data-image="https://dummyimage.com/1000x1000/636363/ffffff" class="my-gallery__link block-rounded-l" itemprop="contentUrl" data-size="1000x1000">
-                          <img src="https://dummyimage.com/1000x1000/636363/ffffff" class="my-gallery__image" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption class="my-gallery__description block-rounded-l" itemprop="caption description">
-                          <h4>Alien sphere
-                            <small>Matte painting</small>
-                          </h4>
-                          <p>Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio,
-                            a mollis ipsum tristique eu.
-                          </p>
-                        </figcaption>
-                      </figure>
-                      <!-- Works Gallery Single Item End -->
-
-                      <!-- Works Gallery Single Item Start -->
-                      <figure class="col-12 col-md-6 my-gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="https://dummyimage.com/1000x1000/636363/ffffff" data-image="https://dummyimage.com/1000x1000/636363/ffffff" class="my-gallery__link block-rounded-l" itemprop="contentUrl" data-size="1000x1000">
-                          <img src="https://dummyimage.com/1000x1000/636363/ffffff" class="my-gallery__image" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption class="my-gallery__description block-rounded-l" itemprop="caption description">
-                          <h4>Random blocks
-                            <small>3d render</small>
-                          </h4>
-                          <p>Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio,
-                            a mollis ipsum tristique eu.
+                        <figcaption class="my-gallery__description block-rounded-l" itemprop="genomics data lake description">
+                          <!-- <h4 class="dark">Genomics Data Lake -->
+                          <h3 style="text-shadow: 2px 2px 8px #003780;">Genomics Data Lake</h3>
+                          <h4 style="text-shadow: 2px 2px 8px #003780;">Ready for a swim?<br>Organize your -omics data in the cloud.</h4>
+                          <p>
+                            Data used in bioinformatics is often large, messy, and in esoteric file formats.
+                            Luckily for us, cloud-based data lakes are the perfect choice for storing and organizing data at-scale.
+                            Plus, having your data availabe in your cloud environment unlocks its use with other cloud tools for scalable bioinformatics pipelines, machine learning, reporting, and more!
                           </p>
                         </figcaption>
                       </figure>
@@ -669,12 +658,11 @@
                       <!-- Works Gallery Single Item Start -->
                       <figure class="col-12 col-md-6 my-gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
                         <a href="https://dummyimage.com/1000x1000/dedede/636363" data-image="https://dummyimage.com/1000x1000/dedede/636363" class="my-gallery__link block-rounded-l" itemprop="contentUrl" data-size="1000x1000">
-                          <img src="https://dummyimage.com/1000x1000/dedede/636363" class="my-gallery__image" itemprop="thumbnail" alt="Image description" />
+                          <img src="img/portfolio/colbyford_a_3D_cartoon_magnifying_glass_looking_at_a_cloud_75261c06-8e71-444d-a015-27bc36d34a71.png" class="my-gallery__image" itemprop="thumbnail" alt="Image description" />
                         </a>
-                        <figcaption class="my-gallery__description block-rounded-l" itemprop="caption description">
-                          <h4 class="dark">Glow cube
-                            <small>3d render</small>
-                          </h4>
+                        <figcaption class="my-gallery__description block-rounded-l" itemprop="cloud architecture review description">
+                          <h3 style="text-shadow: 2px 2px 8px #003780;">Cloud Architecture Review</h3> 
+                          <h4 style="text-shadow: 2px 2px 8px #003780;">Let us see how you're doing.</h4>
                           <p>Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio,
                             a mollis ipsum tristique eu.
                           </p>
@@ -683,37 +671,36 @@
                       <!-- Works Gallery Single Item End -->
 
                       <!-- Works Gallery Single Item Start -->
-                      <figure class="col-12 col-md-6 my-gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="https://dummyimage.com/1000x1000/dedede/636363" data-image="https://dummyimage.com/1000x1000/dedede/636363" class="my-gallery__link block-rounded-l" itemprop="contentUrl" data-size="1000x1000">
-                          <img src="https://dummyimage.com/1000x1000/dedede/636363" class="my-gallery__image" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption class="my-gallery__description block-rounded-l" itemprop="caption description">
-                          <h4 class="dark">Cute character
-                            <small>3d render</small>
-                          </h4>
-                          <p>Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio,
-                            a mollis ipsum tristique eu.
-                          </p>
-                        </figcaption>
-                      </figure>
-                      <!-- Works Gallery Single Item End -->
+                      <!-- <figure class="col-12 col-md-6 my-gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> -->
+                        <!-- <a href="https://dummyimage.com/1000x1000/636363/ffffff" data-image="https://dummyimage.com/1000x1000/636363/ffffff" class="my-gallery__link block-rounded-l" itemprop="contentUrl" data-size="1000x1000"> -->
+                          <figure class="col-12 col-md-6 my-gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                            <a href="products/azbasespace/index.html" id="inner-video-trigger">
+                              <img src="img/portfolio/colbyford_a_3d_realistic_genetic_sequencing_machine_connected_t_6b907600-eaa6-4cec-8b4e-9d97b7abb13e.png" class="my-gallery__image  block-rounded-l" itemprop="thumbnail" alt="azbasespace AI-generated image" />
+                            </a>
+                            <figcaption class="my-gallery__description block-rounded-l" itemprop="azbasespace description">
+                              <h3 style="text-shadow: 2px 2px 8px #003780;"><span style="font-family:Righteous,sans-serif">azbasespace</span></h3>
+                              <h4 style="text-shadow: 2px 2px 8px #003780;">Bridge the divide between Illumina BaseSpace and your cloud environment.</h4>
+                              <p>
+                                Harness the power of your BaseSpace-hosted genomics data by pulling data into your Azure-based data lake.
+                              </p>
+                            </figcaption>
+                          </figure>
+                          <!-- Works Gallery Single Item End -->
 
                       <!-- Works Gallery Single Item Start -->
                       <figure class="col-12 col-md-6 my-gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
                         <a href="https://dummyimage.com/1000x1000/636363/ffffff" data-image="https://dummyimage.com/1000x1000/636363/ffffff" class="my-gallery__link block-rounded-l" itemprop="contentUrl" data-size="1000x1000">
-                          <img src="https://dummyimage.com/1000x1000/636363/ffffff" class="my-gallery__image" itemprop="thumbnail" alt="Image description" />
+                          <img src="img/portfolio/colbyford_a_3D_cartoon_ship_on_water_with_tentacles_underneath_28a41565-90d1-433c-bda7-dba61162835d_q4_u.png" class="my-gallery__image" itemprop="thumbnail" alt="Image description" />
                         </a>
-                        <figcaption class="my-gallery__description block-rounded-l" itemprop="caption description">
-                          <h4>Arrival
-                            <small>Illustration</small>
-                          </h4>
+                        <figcaption class="my-gallery__description block-rounded-l" itemprop="ahab description">
+                          <h3 style="text-shadow: 2px 2px 8px #003780;"><span style="font-family:Righteous,sans-serif">ahab</span></h3>
+                          <h4 style="text-shadow: 2px 2px 8px #003780;">Kubernetes-powered, automated, scalable bioinformatics pipelines.</h4>
                           <p>Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio,
                             a mollis ipsum tristique eu.
                           </p>
                         </figcaption>
                       </figure>
                       <!-- Works Gallery Single Item End -->
-
                     </div>
                   </div>
                 </div>
@@ -738,65 +725,6 @@
       </div>
     </section>
     <!-- Portfolio Section End -->
-
-    <!-- Notify Popup Start -->
-    <div id="notify" class="popup notify">
-      <div class="popup__container">
-
-        <!-- Popup Controls Start -->
-        <div class="popup__controls d-flex justify-content-end">
-          <a href="#0" id="notify-close" class="popup-close hover-gradient hover-gradient-s">
-            <em></em>
-            <span></span>
-          </a>
-        </div>
-        <!-- Popup Controls End -->
-
-        <!-- Popup Content Start -->
-        <div class="popup__content block-rounded-l">
-
-          <!-- Notify Popup Title Start -->
-          <div class="popup-title">
-            <p class="popup-title__title">Get to know about our launch</p>
-            <p class="popup-title__text">Subscribe to our newsletter and we will send you a notification about the launch of our brand new site</p>
-          </div>
-          <!-- Notify Popup Title End -->
-
-          <!-- Notify Form Container Start -->
-          <div class="form-container">
-
-            <!-- Reply Messages Start-->
-            <div class="reply-group subscription-ok">
-              <i class="fa-solid fa-circle-check reply-group__icon"></i>
-              <p class="reply-group__title txt-light">Done!</p>
-              <span class="reply-group__text">Thanks for subscribing. We will send you a notification about our launch.</span>
-            </div>
-            <div class="reply-group subscription-error">
-              <i class="fa-solid fa-face-frown-open reply-group__icon"></i>
-              <p class="reply-group__title">Ooops!</p>
-              <span class="reply-group__text">Something went wrong. Please try again later.</span>
-            </div>
-            <!-- Reply Messages End-->
-
-            <!-- Notify Contact Form Start-->
-            <form class="form notify-form form-light">
-              <input class="block-rounded-s" type="email" placeholder="Your Email" required>
-              <button class="btn btn-l btn-light hover-gradient hover-gradient-l" type="submit">
-                <em></em>
-                <span class="btn-caption">Submit</span>
-              </button>
-            </form>
-            <!-- Notify Contact Form End-->
-
-          </div>
-          <!-- Notify Form Container End -->
-
-        </div>
-        <!-- Popup Content End -->
-
-      </div>
-    </div>
-    <!-- Notify Popup End -->
 
     <!-- Root element of PhotoSwipe. Must have class pswp. -->
     <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
