@@ -53,6 +53,12 @@
   
 }
 
+.media-image-azbasespace {
+  /* background-image: url("https://dummyimage.com/960x1440/636363/ffffff"); */
+  background-image: url("../img/portfolio/colbyford_a_3d_realistic_genetic_sequencing_machine_connected_t_6b907600-eaa6-4cec-8b4e-9d97b7abb13e.png");
+  
+}
+
 .slide-image-1 {
   background-image: url("https://dummyimage.com/960x1440/636363/ffffff");
 }
@@ -250,7 +256,8 @@ img {
 }
 
 .fullheight {
-  position: static;
+  /* position: static; */
+  position: relative;
   height: auto;
 }
 @media only screen and (min-width: 992px) {
@@ -2393,8 +2400,8 @@ form .inputs-description {
 .main {
   position: relative;
   height: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow-y: scroll; /* FIX FOR SCROLLING RIGHT PANE */
+  /* overflow-x: hidden; */
   /* background-color: #07051c; */
   background-color: #003078;
   padding-top: 104px;
@@ -2408,8 +2415,9 @@ form .inputs-description {
 @media only screen and (min-width: 1200px) {
   .main {
     padding-top: 0;
-    min-height: 600px;
+    /* min-height: 600px; */
     overflow: hidden;
+    height: 100%;
   }
 }
 
@@ -2430,12 +2438,21 @@ form .inputs-description {
 .main__media {
   position: relative;
 }
+
 @media only screen and (min-width: 1200px) {
   .main__intro,
 .main__media {
     height: 100%;
   }
 }
+
+/* FIX FOR SCROLLING RIGHT PANE */
+@media only screen and (min-width: 1200px) {
+  .main__media {
+    overflow: scroll;
+  }
+}
+
 
 .main__intro {
   /* background-color: #07051c; */
