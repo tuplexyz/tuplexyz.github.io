@@ -2401,7 +2401,7 @@ form .inputs-description {
   position: relative;
   height: 100%;
   overflow-y: scroll; /* FIX FOR SCROLLING RIGHT PANE */
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   /* background-color: #07051c; */
   background-color: #003078;
   padding-top: 104px;
